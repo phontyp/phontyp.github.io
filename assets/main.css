@@ -39,14 +39,14 @@ ol{    margin-left:10%;
 .interesting {
 font-size:1.2em;
 font-family:'Sorts Mill Goudy',sans-serif;
-background-color: #faf1dd;
+background-color: #fff6d7;
 }
 
 .alert {
 padding: 0.5em;
 font-size:1.2em;
 font-family:'Sorts Mill Goudy',sans-serif;
-background-color: #faf1dd;
+background-color: #fff6d7;
 }
 
 html{color:#222;font-size:1.15em;line-height:1;font-family:'Sorts Mill Goudy',serif; background-color: #fffbee;}
@@ -242,6 +242,10 @@ main{padding-top:10.5em;width:100%;padding-bottom:1em;}
 .navbar:hover .navbar-content {
     display: block;
     opacity: 1;
+}
+
+.navbar:hover a{
+      background-color: #fff6d7;
 }
 
 @media screen and (max-width: 45em) {
