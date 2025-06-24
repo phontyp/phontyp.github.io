@@ -1,19 +1,11 @@
 body {font-size: 100%;}
 
-h0,h1,h2,h3,h4,h6{text-align:center;font-weight:400; }
-h0,h1{font-family:'Sorts Mill Goudy',serif;margin-bottom:.33em;font-weight: bold;}
-h3{font-family:'Sorts Mill Goudy',sans-serif;text-transform:uppercase;letter-spacing:.05em }
-h4,h5,h6{font-family:'Sorts Mill Goudy',sans-serif;}
-
-
 #page {font-size: 1.2em;line-height: 1.25;}
-h0 {font-size: 2.5em;line-height: 2;letter-spacing:-.02em;font-style: italic;}
-h1 {font-size: 3.2em;line-height: 1.25;letter-spacing:-.02em;font-style: italic;}
-h2 {font-family:'Sorts Mill Goudy',serif;font-size: 2em;line-height: 1.15384615;}
-h3 {font-size: 1.375em;line-height: 1.13636364; margin-top:2em;}
-h4, nav{font-size: 1.125em;}
+h1 {font-size: 3.2em;line-height: 1.25;letter-spacing:-.02em;font-style: italic;margin-bottom:.33em;font-weight: bold;}
+h2 {font-family:'Sorts Mill Goudy',serif;font-size: 2em;line-height: 1.15384615;text-align:center;}
+h3 {font-size: 1.375em;line-height: 1.13636364; margin-top:2em;text-transform:uppercase;letter-spacing:.05em;text-align:center;}
+h4, nav{font-size: 1.125em;text-align:center;}
 h5{font-weight:400; font-size:1em;text-align:left;    margin-left:1em;}
-/* h6{font-size: 0.8em;text-align:left;} */
 blockquote {font-size: 1.25em;line-height: 1.25;}
 
 .highlight {
@@ -79,10 +71,10 @@ footer{
 
 a{
   text-decoration: none;
-  color:#1144FF;
+  color:#EE3300;
   transition: color 0.7s;
 }
-a:hover{color:#AA88FF }
+a:hover{color:#ff7744 }
 
 .prose a{
   display: inline-block;
@@ -94,7 +86,7 @@ a:hover{color:#AA88FF }
   position: absolute;
   left: 0;
   display: inline-block;
-  height: 1em;
+  height: 0.65em;
   width: 100%;
   border-bottom: thin dotted;
   margin-top: 3px;
@@ -184,9 +176,9 @@ main{padding-top:10.5em;width:100%;padding-bottom:1em;}
 
 .prose {
     margin-top:1em;
-    margin-left:6em;
-    margin-right:6em;
-    text-align: justify;
+    margin-left:10%;
+    margin-right:10%;
+    /* text-align: justify; */
 }
 
 .row:after {
@@ -205,10 +197,12 @@ main{padding-top:10.5em;width:100%;padding-bottom:1em;}
     margin-top:0.3em;
 }
 
-.navbar:after{content:"\b7" }
+/* .navbar:after{margin-left:1em; } */
 
 .navbar .menu-item {
     padding: 2px 0px;
+    margin-left:0.5em;
+    margin-right:0.5em;
     font-size: 1em;
     text-decoration:none;
     text-transform:uppercase;
@@ -255,4 +249,5 @@ main{padding-top:10.5em;width:100%;padding-bottom:1em;}
   .column-min {width: 100%;margin-top:2em;}
   .navbar{display: block;}
   .navbar:after{content:none;}
+  h1 {font-size: 2.5em;line-height: 1.25;letter-spacing:-.02em;font-style: italic;}
 }
